@@ -1,0 +1,13 @@
+@import "typography";
+@import "layout";
+html{
+  height:100%;
+}
+body,
+#_next {
+  height:100%;
+}
+
+* {
+  box-sizing: border-box;
+}
