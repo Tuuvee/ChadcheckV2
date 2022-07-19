@@ -1,13 +1,16 @@
 @import "typography";
 @import "layout";
-html{
-  height:100%;
-}
+
 body,
 #_next {
-  background: $purple;
+  margin: 0;
+  background: $light-pink;
   color: $black;
-  height:100%;
+}
+body {
+  min-height: 100vh;
+  background:$light-pink;
+  height:100vh;
 }
 
 * {

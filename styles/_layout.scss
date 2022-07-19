@@ -1,6 +1,9 @@
 //Global layout styling here
 @import "settings/settings";
+
 header,footer{
+    width:100%;
+    background:$purple;
     padding: 0 2rem;
     @include tablet() {
         padding: 0 4rem;
@@ -10,6 +13,7 @@ header,footer{
     }
 }
 section {
+    width:100%;
     padding: 2rem 2rem;
     @include tablet() {
         padding: 2rem 4rem;
@@ -17,4 +21,13 @@ section {
     @include desktop() {
         padding: 2rem 6rem;
     }
+}
+header {
+    position: fixed;
+    top:0;
+    height: $header-height;
+}
+footer {
+    height:6rem;
+    margin-top: auto;
 }
